@@ -58,7 +58,7 @@ function makeSound(key) {
     Snare.play(); }
 
   else if (key === "k") {
-    var Crash = new Audio ("sounds/Crash.mp3");
+    var Crash = new Audio ("sounds/crash.mp3");
     Crash.play(); }
 
   else if (key === "l") {
