@@ -29,7 +29,7 @@ function animationButton(currentKey) {
 
   var activeButton = document.querySelector("." + currentKey);
   activeButton.classList.add("pressed");
-  setTimeout(function () {activeButton.classList.remove("pressed");},100);
+  setTimeout(function () {activeButton.classList.remove("pressed");},400);
 }
 
 
